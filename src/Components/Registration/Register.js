@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import style from "./Register.module.css";
 import CustomButton from "../../Atom/CustomButton";
+
 import Input from "../../Atom/Input";
 import { Link } from "react-router-dom";
 function Register() {

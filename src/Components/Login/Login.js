@@ -3,12 +3,18 @@ import style from "./Login.module.css";
 import CustomButton from "../../Atom/CustomButton";
 import { FaTwitter } from "react-icons/fa";
 import Input from "../../Atom/Input";
+import { useRecoilState } from "recoil";
+import { Atom } from "../../Recoil/Atom1/Atom";
 
 function Login() {
   const [nextbtn, setNextBtn] = useState(false);
+
+  const [isLogin, setIsLogin] = useRecoilState(Atom);
+  console.log(Atom);
   const buttonNext = () => {
     setNextBtn(true);
   };
+
   return (
     <div className={style.container}>
       <div className={style.container1}>
