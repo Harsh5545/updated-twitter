@@ -8,15 +8,19 @@
     height: 100vh;
    
 }
-.container1{
-  
+.main{
     width: 36rem;
     height:34rem;
   border-radius: 1rem;
     background-color: #000000;
+  
+
+}
+.container1{
+     height: 100%;
     align-items: center;
     display: flex;
-flex-direction: column;
+    flex-direction: column;
 }
 .btn1{
     border: none;
@@ -62,12 +66,7 @@ flex-direction: column;
  }
  .or{
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 10px;
-    height: 40px;
+ 
 }
 .containerpass{
     display: flex;

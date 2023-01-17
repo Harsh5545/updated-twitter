@@ -26,18 +26,24 @@ function Register() {
                 <div>
                   <Input className={style.input1} placeholder="Name" />
                   <br />
-                  {toggle ? (
-                    <>
-                      <Input className={style.input2} placeholder="Phone" />
-                    </>
-                  ) : (
-                    <>
-                      <Input className={style.input2} placeholder="email" />
-                    </>
-                  )}
-                  <span className={style.toggle} onClick={ToggleEU}>
-                    {toggle ? <> UseEmail insted </> : <>UsePhone insted</>}
-                  </span>
+                  <div className={style.toogleData}>
+                    {toggle ? (
+                      <>
+                        <Input className={style.input2} placeholder="Phone" />
+                      </>
+                    ) : (
+                      <>
+                        <Input className={style.input2} placeholder="email" />
+                      </>
+                    )}
+                    <span className={style.toggle} onClick={ToggleEU}>
+                      {toggle ? (
+                        <h6> UseEmail insted </h6>
+                      ) : (
+                        <h6>UsePhone insted</h6>
+                      )}
+                    </span>
+                  </div>
                 </div>
                 <div>
                   <CustomButton
@@ -85,7 +91,7 @@ function Register() {
                 </p>
               </div>
               <div className={style.txt2}>
-                Have an Account Already..? <Link path="/Login"> Log in</Link>
+                Have an Account Already..? <Link path="/"> Log in</Link>
               </div>
             </>
           )}

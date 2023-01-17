@@ -70,6 +70,12 @@
     height: 100%;
 
 }
+.toggle h6{
+    margin-left: 20.5rem;
+    margin-top: 0.5rem; 
+    font-size: 15px;
+
+}
 .mainContainer .toggle{
 margin-left: 0;
 padding-left: 0px;

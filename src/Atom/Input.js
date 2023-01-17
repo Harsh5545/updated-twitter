@@ -8,6 +8,7 @@ function Input(props) {
   return (
     <div>
       <input
+        required
         className={props.className}
         placeholder={props.placeholder}
       ></input>
