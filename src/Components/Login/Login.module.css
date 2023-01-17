@@ -80,12 +80,18 @@ flex-direction: column;
 }
 .loginbtn{
     width: 438.400px;
-    height: 59.6px;
+    height: 50.6px;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 18px;
 }
 .para{
     color: #fff;
 }
-
+.para span{
+    color: #635eed;
+}
 .input2{
     width: 438px;
     height: 60px;
