@@ -72,7 +72,9 @@ function Login() {
           </>
         )}
         <div className={style.para}>
-          <p>Don't have an account? Sign up</p>
+          <p>
+            Don't have an account? <span>Sign up</span>
+          </p>
         </div>
       </div>
     </div>
