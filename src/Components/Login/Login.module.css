@@ -5,13 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    align-content: center;
     height: 100vh;
    
 }
 .container1{
-    /* margin-top: 100px;
-    margin-bottom: 100px; */
+  
     width: 36rem;
     height:34rem;
   border-radius: 1rem;
@@ -21,16 +19,33 @@
 flex-direction: column;
 }
 .btn1{
-    background-color: black;
+    border: none;
+    outline: none;
+    width: 298.400px;
+    height: 38.400px;
+    border-radius: 18px;
+    font-size: 15px;
+    vertical-align: center;
+    
+    
 }
 .logo{
 
-    color: blue; font-size: 40px;top: 0px;
+    color: #fff; 
+        margin-top:4px;
+    font-size: 40px;
 }
 .form{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.input{
+    width: 298px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: 1px gray solid;
 }
 
 .text{
@@ -41,14 +56,37 @@ flex-direction: column;
     vertical-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.input{
-    border: 1px solid white;
-    height: 58px;
-    
-    
+
+.line{
+    padding-bottom: 30px;
+ }
+ .or{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    height: 40px;
 }
-.input h4{
-    color: #fff;
-    margin-bottom: 1px;
-    margin-top: 0;
+.containerpass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.password{
+    margin-top: 150px;
+}
+.loginbtn{
+    width: 438.400px;
+    height: 59.6px;
+}
+
+.input2{
+    width: 438px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: 1px gray solid;
 }

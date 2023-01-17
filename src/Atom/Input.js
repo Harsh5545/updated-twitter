@@ -1,14 +1,16 @@
 import React, { useState } from "react";
 import style from "./styled.module.css";
-function Input(type = "text", label) {
+function Input(props) {
   const [value, setValue] = useState("");
   function handleChange(e) {
     setValue(e.target.value);
   }
   return (
-    <div className={style.inputContainer}>
-      <input type={type} value={value} onChange={handleChange} />
-      <label className={value && "filled"} />
+    <div>
+      <input
+        className={props.className}
+        placeholder={props.placeholder}
+      ></input>
     </div>
   );
 }
